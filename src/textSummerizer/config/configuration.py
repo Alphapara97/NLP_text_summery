@@ -2,6 +2,7 @@ from textSummerizer.constants import *
 from textSummerizer.utils.common import read_yaml, create_directories
 from textSummerizer.entity import DataIngestionConfig
 from textSummerizer.entity import DataValidationConfig
+from textSummerizer.entity import DataTransformationConfig
 
 class ConfigrationManager:
       def __init__(
@@ -39,3 +40,16 @@ class ConfigrationManager:
             )
 
             return data_validation_config    
+      
+      def get_data_transformation_config(self) -> DataTransformationConfig:
+            config = self.config.data_transformation
+
+            create_directories([config.root_dir])
+
+            data_transformation_config = DataTransformationConfig(
+                  root_dir=config.root_dir,
+                  data_path=config.data_path,
+                  tokenizer_name=config.tokenizer_name,
+            )
+
+            return data_transformation_config
