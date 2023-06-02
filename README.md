@@ -132,7 +132,15 @@ Author: Ansuman Sasmal
 ## 1. Predict API
 
 	input string:
-		"Mark Watney: Alright, let's do the math again. How much food do we have left?  Beth Johanssen: According to my calculations, we have enough rations to last us 300 days.  Chris Beck: But Mark, you've been rationing the food for over a year now. We were only supposed to be here for 30 days.  Mark Watney: Yeah, well, plans changed. I'm not ready to give up just yet. We'll figure something out.  Commander Melissa Lewis: Mark, we've been working non-stop trying to find a solution. The next supply mission isn't for another 4 years. We need to face the reality.  Mark Watney: Reality? You want to talk about reality? The reality is that I'm still alive, and I intend to stay that way. I'm not going to let this planet kill me.  Johanssen: Mark, we're all behind you. We just need to find a way to sustain ourselves until help arrives.  Mark Watney: Well, luckily I'm a botanist. I'm going to science the shit out of this. I'm going to grow food on a planet where nothing grows.  Beck: That's the spirit, Mark! We'll support you in any way we can."
+		"Mark Watney: Alright, let's do the math again. How much food do we have left?
+		Beth Johanssen: According to my calculations, we have enough rations to last us 300 days.  
+		Chris Beck: But Mark, you've been rationing the food for over a year now. We were only supposed to be here for 30 days.  
+		Mark Watney: Yeah, well, plans changed. I'm not ready to give up just yet. We'll figure something out.  
+		Commander Melissa Lewis: Mark, we've been working non-stop trying to find a solution. The next supply mission isn't for another 4 years. We need to face the reality.  
+		Mark Watney: Reality? You want to talk about reality? The reality is that I'm still alive, and I intend to stay that way. I'm not going to let this planet kill me.  
+		Johanssen: Mark, we're all behind you. We just need to find a way to sustain ourselves until help arrives.  
+		Mark Watney: Well, luckily I'm a botanist. I'm going to science the shit out of this. I'm going to grow food on a planet where nothing grows.  
+		Beck: That's the spirit, Mark! We'll support you in any way we can."
 
 	output string:
 		"Mark Watney has been rationing food for over a year. The next supply mission isn't for another 4 years. Watney plans to grow food on a planet where nothing grows."
