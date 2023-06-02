@@ -1,11 +1,11 @@
-from textSummarizer.config.configuration import ConfigurationManager
+from textSummerizer.config.configuration import ConfigrationManager
 from transformers import AutoTokenizer
 from transformers import pipeline
 
 
 class PredictionPipeline:
     def __init__(self):
-        self.config = ConfigurationManager().get_model_evaluation_config()
+        self.config = ConfigrationManager().get_model_evaluation_config()
 
 
     
