@@ -1,4 +1,21 @@
-# End to end Text-Summarizer-Project
+# End to end Text-Summarizer-NLP
+
+
+## Introduction 
+
+This repository contains an end-to-end Natural Language Processing (NLP) project that focuses on text summarization. The project includes data processing, modeling, and a prediction pipeline, providing a comprehensive solution for summarizing text content.
+
+
+## Overview
+
+The goal of this project is to develop a text summarization tool using Google Pegasus-XSUM, a state-of-the-art NLP model. The tool automates the process of condensing lengthy text documents into concise summaries, saving time and effort for readers. With the implementation of Continuous Integration and Continuous Deployment (CI/CD) using GitHub Actions, the text summarizer is efficiently deployed on Amazon EC2, ensuring seamless accessibility.
+
+## Key Features
+- End-to-end NLP project for text summarization
+- Utilizes Google Pegasus-XSUM for generating summaries
+- Streamlined data processing, modeling, and prediction pipeline
+- Implements CI/CD deployment with GitHub Actions
+- Deployed on Amazon EC2 for efficient access and usage
 
 ## Workflows
 
